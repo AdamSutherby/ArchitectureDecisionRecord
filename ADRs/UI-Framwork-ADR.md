@@ -23,11 +23,11 @@ Contents:
 
 ### Issue
 
-To determine the most suitable backend language(s) for our mobile application.
+To determine the UI framework to be used for developing the food delivery application.
 
 ### Decision
 
-We are choosing Node.js as our backend programming language.
+We will use React as the UI framework for developing the food delivery application.
 
 ### Status
 
@@ -37,26 +37,26 @@ Decided.
 
 ### Assumptions
 
-- Will be able to recieve data from the restaurants' inventory management systems to keep the app up to date.
-- All current payment gateway options considered will not interfere with our backend.
-- Location tracking data will be able to be accurate and up to date with the backend framework.
+- A flexible UI framework is required to handle the complexity of the application.
+- Team will be familiar with the framework.
+- Perfromance of the application will meet the need of the client.
 
 ### constraints
 
-We have a constraint on backend languages that are unusable with
+- Compatibility with other technologies and libraries used in the application stack.
+- Consideration of learning curves for new team members or stakeholders.
 
 ### Positions
 
-The following languages were considered:
+The following frameworks were considered:
 
-- Go
-- Javascript
-- Next.js
-- Typescript
+- React
+- Angular
+- Vue.js
 
 ### Argument
 
-Node.js is familair with our current team and align's with the client's needs.
+React is familair with our current team and align's with the client's needs.
 
 ### Implications
 
@@ -66,10 +66,20 @@ Team may need to learn and use new libaries to help reach the client's needs for
 
 ### Related Decisions
 
+backend language, native/web/hybrid app.
+
 ### Related requirements
+
+the UI framework must support scalability, preformance and maintainability.
 
 ### Related artifacts
 
+react documentation and resources.
+
+project documentation.
+
 ### Related principles
+
+Choose technologies that align with project goals, requirements, and team expertise.
 
 ## Notes
