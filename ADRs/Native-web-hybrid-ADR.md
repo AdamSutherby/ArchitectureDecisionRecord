@@ -23,11 +23,11 @@ Contents:
 
 ### Issue
 
-To determine the most suitable backend language(s) for our mobile application.
+To determine the most suitable development approach (Native, Web, or Hybrid) for the food delivery application.
 
 ### Decision
 
-We are choosing Node.js as our backend programming language.
+We will develop the food delivery application as a Hybrid mobile application.
 
 ### Status
 
@@ -37,38 +37,44 @@ Decided.
 
 ### Assumptions
 
-- Will be able to recieve data from the restaurants' inventory management systems to keep the app up to date.
-- All current payment gateway options considered will not interfere with our backend.
-- Location tracking data will be able to be accurate and up to date with the backend framework.
+- Users primarily access the food delivery service through mobile devices.
+- Balancing between platform-specific capabilities and cross-platform compatibility is desirable.
+- Development resources and expertise are available for web technologies.
 
 ### constraints
 
-We have a constraint on backend languages that are unusable with
+- Limited development resources and expertise for platform-specific development.
+- Timeframe and project deadlines.
+- Budget constraints.
 
 ### Positions
 
-The following languages were considered:
-
-- Go
-- Javascript
-- Next.js
-- Typescript
+- Native
+- Web
+- Hybrid
 
 ### Argument
 
-Node.js is familair with our current team and align's with the client's needs.
-
 ### Implications
 
-Team may need to learn and use new libaries to help reach the client's needs for this mobile application.
+- Cross-platform compatibility with reduced development effort and cost.
+- Access to native device functionalities for core features.
+- Potential performance trade-offs compared to fully native applications.
+- Dependence on third-party hybrid frameworks and tools.
 
 ## Related
 
 ### Related Decisions
 
+Backend language. permissions.
+
 ### Related requirements
 
+Access to device functionalities such as GPS is necessary for core features.
+
 ### Related artifacts
+
+Hybrid app development frameworks and tools.
 
 ### Related principles
 
