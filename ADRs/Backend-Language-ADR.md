@@ -69,7 +69,7 @@ Team may need to learn and use new libaries to help reach the client's needs for
 
 The frontend language (currently React.js).
 
-The use of web hybrid.
+The descision of the app being a web hybrid.
 
 ### Related requirements
 

@@ -65,12 +65,18 @@ May have to follow certain restrictions when publishing the App with the inclsui
 
 ### Related Decisions
 
-The descision of using a web hybrid.
+The descision of the app being a web hybrid.
 
 ### Related requirements
 
+Accurate and real time updates to from the restaurants' inventory management systems.
+
 ### Related artifacts
 
+Data model Diagram.
+
 ### Related principles
+
+Data security and performance.
 
 ## Notes
